@@ -16,8 +16,13 @@ const Shop = () => {
 
     const addToCart = (product) =>{
         // do not do this: cart.push(product);
+        
         const newCart = [...cart, product];
         setCart(newCart);
+    }
+
+    const reset =()=>{
+        setCart([])
     }
 
     return (
@@ -32,7 +37,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-               <Cart cart={cart}></Cart>
+               <Cart cart={cart} reset={reset}></Cart>
             </div>
         </div>
     );
