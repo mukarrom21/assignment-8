@@ -7,7 +7,7 @@ const Product = ({product,addToCart}) => {
     const {images, name, price} = product;
 
     return (
-            <div className='product'>
+        <div className='product'>
             <img src={images} alt=""></img>
             <div className='product-info'>
                 <p className='product-name'>{name}</p>

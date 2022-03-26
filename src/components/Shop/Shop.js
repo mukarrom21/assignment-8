@@ -13,9 +13,6 @@ const Shop = () => {
         .then(data=>setProducts(data))
     },[])
 
-    useEffect(()=>{
-        
-    },[])
 
     const addToCart = (product) =>{
         // do not do this: cart.push(product);
