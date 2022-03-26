@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Lucky Samsung
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my website: [Lucky Samsung](https://mmh-samsung.netlify.app/).
+My Website live link is: https://mmh-samsung.netlify.app
 
 ## Available Scripts
 
